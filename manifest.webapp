@@ -1,0 +1,22 @@
+{
+  "name": "Browser - qz.com - Remove 'Read full story' button",
+  "description": "Removes the 'Read full story' button on Quartz (qz.com) articles that does not reveal the entire content for long stories",
+  "developer": {
+    "name": "Les Orchard",
+    "url": "http://lmorchard.com"
+  },
+  "package_path": "package.zip",
+  "role": "addon",
+  "type": "certified",
+  "customizations": [{
+    "filter": "http://qz.com/",
+    "css": [],
+    "scripts": ["index.js"]
+  },{
+    "filter": "https://qz.com/",
+    "css": [],
+    "scripts": ["index.js"]
+  }],
+  "icons": {
+  }
+}
