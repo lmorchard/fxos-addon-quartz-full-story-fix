@@ -1,10 +1,6 @@
 (function () {
 
-  if (document.documentElement) {
-    initialize();
-  } else {
-    window.addEventListener('DOMContentLoaded', initialize);
-  }
+  window.addEventListener('DOMContentLoaded', initialize);
 
   function initialize () {
     // Surprisingly, it's just this easy!
